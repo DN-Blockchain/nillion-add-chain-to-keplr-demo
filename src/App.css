@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.app {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fetch-btn {
+    outline: none;
+    background: #0021f5;
+    color: #fff;
+    border: 1px solid #0021f5;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 16px 24px;
+    cursor: pointer;
+}
